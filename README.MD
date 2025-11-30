@@ -1,1 +1,1 @@
-
+t is a high-fidelity **Steganography** system developed using **MATLAB/Simulink**. It uses the **Fourier Transform Phase Difference** method to hide messages inside images without creating perceptible alterations to the original image.
