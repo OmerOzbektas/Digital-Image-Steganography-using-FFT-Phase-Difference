@@ -41,7 +41,7 @@ The system was tested with a gain factor of **$K = 0.01$**.
 ### Visual Comparison
 | Host Image | Stego-Image (Output) | Extracted Secret |
 | :---: | :---: | :---: |
-| ![Original](media/original_host.png) | ![Stego](media/watermarked_output.png) | ![Secret](media/extracted_watermark.png) |
+| ![Cover](media/Cover) | ![Stego](media/Stego) | ![Extracted Message](media/extracted_message) |
 
 ---
 
