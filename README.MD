@@ -1,35 +1,35 @@
-# Digital Image Steganography using FFT Phase Difference 🔐
+# Digital Image Steganography using FFT Phase Difference 
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange) ![Simulink](https://img.shields.io/badge/Simulink-Model-blue) ![Status](https://img.shields.io/badge/Status-Verified-green)
 
-A high-fidelity **Steganography** system implemented in **MATLAB/Simulink**. This project utilizes the **Fourier Transform Phase Difference** technique to securely embed hidden information into digital images without visible distortion.
+It is a high-fidelity **Steganography** system developed using **MATLAB/Simulink**. It uses the **Fourier Transform Phase Difference** method to hide messages inside images without creating perceptible alterations to the original image.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
-This project implements a steganographic algorithm that hides a secret image (watermark) within a cover image. Unlike traditional spatial domain methods, this approach operates in the **Frequency Domain**, leveraging the phase information of the FFT coefficients for robust data embedding.
+This system develops a steganographic procedure that conceals a hidden image, or **watermark**, inside another image, called the **cover** image. This innovative method differs from the conventional spatial domain steganographic procedure because, for this system, embedding is done in the **Frequency Domain**.
 
 ### Key Features
-* **Steganography Approach:** Securely hides data using frequency domain manipulation.
-* **Core Technique:** Uses **Fourier Transform Phase Difference** to modulate the watermark into the host image.
-* **High Imperceptibility:** Achieves a PSNR of **52.4 dB**, making the hidden data visually undetectable to the human eye.
-* **Color Preservation:** Operates on the **Y (Luminance)** channel of the YCbCr color space to maintain color fidelity.
+* **Steganography Approach:** Hiding data through manipulation of the frequency domain.
+*   **Core Technique:** Employing **Fourier Transform Phase Difference** for embedding the watermark into the host image.
+* **High Imperceptibility:** Obtains a PSNR value of **52.79 dB**, making the embedded message imperceptible to human observation.
 
 ---
 
-## 🧠 Methodology: Phase Difference
+## Methodology: Phase Difference
 
-The algorithm relies on the property that phase information in the Fourier transform is crucial for image reconstruction.
+It is dependent on the property that the phase information of the Fourier transform is essential for image reconstruction.
+1.  **Transformation:** Both Host and Watermark images undergo transformation to the frequency domain through the process of **2D-FFT**.
+2.  **Phase Modulation:** The embedding of the watermark is done through the **Phase** component of the host image's frequency spectrum.
 
-1.  **Transformation:** Both the Host and Watermark images are converted to the frequency domain using **2D-FFT**.
-2.  **Phase Modulation:** The watermark is embedded by modifying the **Phase** component of the host image's frequency spectrum.
-    * *Why Phase?* Embedding in the phase spectrum (using phase difference) is often more robust and less perceptible than magnitude modification.
-3.  **Reconstruction:** The modified frequency spectrum is converted back to the spatial domain using Inverse FFT (**2D-IFFT**).
+* *Why Phase?* Embedding via the phase spectrum, or through phase difference, can be far less noticeable than magnitude embedding.
+
+3.  **Reconstruction:** The transformed frequency spectrum is then inverted back to a spatial domain using the Inverse FFT operation, namely, 2D-IFFT.
 
 ---
 
-## 📊 Results
+## Results
 
 The system was tested with a gain factor of **$K = 0.01$**.
 
@@ -56,28 +56,7 @@ The project is built using modular Simulink blocks for signal processing.
 
 ---
 
-## 🚀 How to Run
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/yourusername/Steganography-FFT-Phase.git](https://github.com/yourusername/Steganography-FFT-Phase.git)
-    ```
-2.  **Open in MATLAB:**
-    Open the `Steganography_FFT.slx` file.
-3.  **Run Simulation:**
-    Run the model to see the embedding and extraction process in real-time video viewers.
-
----
-
 ## 👤 Author
 
-**[Adın Soyadın]**
-*Electronics Engineering Student*
-
+**Ömer Faruk Özbektaş**
 [LinkedIn](https://www.linkedin.com/) | [Email](mailto:your@email.com)
-
----
-
-## ⚖️ License
-
-Distributed under the MIT License.
