@@ -45,7 +45,7 @@ The system was tested with a gain factor of **$K = 0.01$**.
 
 ---
 
-## 🛠️ Simulation Model
+## Simulation Model
 
 The project is built using modular Simulink blocks for signal processing.
 
@@ -56,7 +56,7 @@ The project is built using modular Simulink blocks for signal processing.
 
 ---
 
-## 👤 Author
+## Author
 
 **Ömer Faruk Özbektaş**
 [LinkedIn](https://www.linkedin.com/) | [Email](mailto:your@email.com)
