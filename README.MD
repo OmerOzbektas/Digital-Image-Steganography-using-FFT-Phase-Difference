@@ -59,4 +59,4 @@ The project is built using modular Simulink blocks for signal processing.
 ## Author
 
 **Ömer Faruk Özbektaş**
-[LinkedIn](https://www.linkedin.com/) | [Email](mailto:your@email.com)
+[LinkedIn](https://www.linkedin.com/in/omerozbektas) | [Email](mailto:omerozbektas33@gmail.com)
