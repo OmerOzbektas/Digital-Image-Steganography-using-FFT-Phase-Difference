@@ -1,6 +1,6 @@
 # Digital Image Steganography using FFT Phase Difference 
 
-![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange) ![Simulink](https://img.shields.io/badge/Simulink-Model-blue) ![Status](https://img.shields.io/badge/Status-Verified-green)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange) ![Simulink](https://img.shields.io/badge/Simulink-Model-blue)
 
 It is a high-fidelity **Steganography** system developed using **MATLAB/Simulink**. It uses the **Fourier Transform Phase Difference** method to hide messages inside images without creating perceptible alterations to the original image.
 
@@ -35,7 +35,7 @@ The system was tested with a gain factor of **$K = 0.01$**.
 
 | Metric | Value | Result |
 | :--- | :--- | :--- |
-| **PSNR** | **52.4 dB** | **Excellent.** No visible artifacts or distortion. |
+| **PSNR** | **52.79 dB** | **Excellent.** No visible artifacts or distortion. |
 | **Visual Quality** | High | The stego-image is indistinguishable from the original. |
 
 ### Visual Comparison
